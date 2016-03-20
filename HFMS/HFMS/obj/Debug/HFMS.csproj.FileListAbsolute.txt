@@ -1,0 +1,68 @@
+c:\users\karrar\documents\visual studio 2015\Projects\HFMS\HFMS\bin\Debug\HFMS.exe.config
+C:\Users\Karrar\Documents\Visual Studio 2015\Projects\HFMS\HFMS\bin\Debug\HFMS.exe
+C:\Users\Karrar\Documents\Visual Studio 2015\Projects\HFMS\HFMS\bin\Debug\HFMS.pdb
+C:\Users\Karrar\Documents\Visual Studio 2015\Projects\HFMS\HFMS\obj\Debug\HFMS.csprojResolveAssemblyReference.cache
+C:\Users\Karrar\Documents\Visual Studio 2015\Projects\HFMS\HFMS\obj\Debug\HFMS.Properties.Resources.resources
+C:\Users\Karrar\Documents\Visual Studio 2015\Projects\HFMS\HFMS\obj\Debug\HFMS.csproj.GenerateResource.Cache
+C:\Users\Karrar\Documents\Visual Studio 2015\Projects\HFMS\HFMS\obj\Debug\HFMS.exe
+C:\Users\Karrar\Documents\Visual Studio 2015\Projects\HFMS\HFMS\obj\Debug\HFMS.pdb
+C:\Users\Karrar\Documents\Visual Studio 2015\Projects\HFMS\HFMS\bin\Debug\GSMCommServer.dll
+C:\Users\Karrar\Documents\Visual Studio 2015\Projects\HFMS\HFMS\bin\Debug\GSMCommShared.dll
+C:\Users\Karrar\Documents\Visual Studio 2015\Projects\HFMS\HFMS\bin\Debug\GSMCommunication.dll
+C:\Users\Karrar\Documents\Visual Studio 2015\Projects\HFMS\HFMS\bin\Debug\PDUConverter.dll
+C:\Users\Karrar\Documents\Visual Studio 2015\Projects\HFMS\HFMS\obj\Debug\HFMS.Fine.resources
+C:\Users\Karrar\Documents\Visual Studio 2015\Projects\HFMS\HFMS\obj\Debug\HFMS.StudentEntry.resources
+C:\Users\Karrar\Documents\Visual Studio 2015\Projects\HFMS\HFMS\obj\Debug\HFMS.HFMS_WINDOW.resources
+C:\Users\Karrar\Desktop\HFMS\kab_repo\HFMS\HFMS\bin\Debug\HFMS.exe.config
+C:\Users\Karrar\Desktop\HFMS\kab_repo\HFMS\HFMS\obj\Debug\HFMS.exe
+C:\Users\Karrar\Desktop\HFMS\kab_repo\HFMS\HFMS\obj\Debug\HFMS.pdb
+C:\Users\Karrar\Desktop\HFMS\kab_repo\HFMS\HFMS\obj\Debug\HFMS.Fine.resources
+C:\Users\Karrar\Desktop\HFMS\kab_repo\HFMS\HFMS\obj\Debug\HFMS.HFMS_WINDOW.resources
+C:\Users\Karrar\Desktop\HFMS\kab_repo\HFMS\HFMS\obj\Debug\HFMS.Login.resources
+C:\Users\Karrar\Desktop\HFMS\kab_repo\HFMS\HFMS\obj\Debug\HFMS.MyAccount.resources
+C:\Users\Karrar\Desktop\HFMS\kab_repo\HFMS\HFMS\obj\Debug\HFMS.Properties.Resources.resources
+C:\Users\Karrar\Desktop\HFMS\kab_repo\HFMS\HFMS\obj\Debug\HFMS.Resource1.resources
+C:\Users\Karrar\Desktop\HFMS\kab_repo\HFMS\HFMS\obj\Debug\HFMS.StudentControl.resources
+C:\Users\Karrar\Desktop\HFMS\kab_repo\HFMS\HFMS\obj\Debug\HFMS.StudentEntry.resources
+C:\Users\Karrar\Desktop\HFMS\kab_repo\HFMS\HFMS\obj\Debug\HFMS.warden.resources
+C:\Users\Karrar\Desktop\HFMS\kab_repo\HFMS\HFMS\obj\Debug\HFMS.csproj.GenerateResource.Cache
+C:\Users\Karrar\Desktop\HFMS\kab_repo\HFMS\HFMS\bin\Debug\HFMS.exe
+C:\Users\Karrar\Desktop\HFMS\kab_repo\HFMS\HFMS\bin\Debug\HFMS.pdb
+C:\Users\Karrar\Desktop\HFMS\kab_repo\HFMS\HFMS\bin\Debug\GSMCommServer.dll
+C:\Users\Karrar\Desktop\HFMS\kab_repo\HFMS\HFMS\bin\Debug\GSMCommShared.dll
+C:\Users\Karrar\Desktop\HFMS\kab_repo\HFMS\HFMS\bin\Debug\GSMCommunication.dll
+C:\Users\Karrar\Desktop\HFMS\kab_repo\HFMS\HFMS\bin\Debug\PDUConverter.dll
+C:\Users\Karrar\Desktop\HFMS\kab_repo\HFMS\HFMS\obj\Debug\GSMCommDemo.frmConnection.resources
+C:\Users\Karrar\Desktop\HFMS\kab_repo\HFMS\HFMS\obj\Debug\GSMCommDemo.frmDemo.resources
+C:\Users\Karrar\Desktop\HFMS\kab_repo\HFMS\HFMS\obj\Debug\GSMCommDemo.frmSecurity.resources
+C:\Users\Karrar\Desktop\HFMS\kab_repo\HFMS\HFMS\obj\Debug\HFMS.Rooms.resources
+C:\Users\Karrar\Desktop\HFMS\kab_repo\HFMS\HFMS\obj\Debug\HFMS.csprojResolveAssemblyReference.cache
+C:\Users\Karrar\Desktop\HFMS\kab_repo\HFMS\HFMS\obj\Debug\HFMS.AdminControl.resources
+C:\Users\Karrar\Desktop\HFMS\HFMS\HFMS\bin\Debug\HFMS.exe.config
+C:\Users\Karrar\Desktop\HFMS\HFMS\HFMS\obj\Debug\HFMS.exe
+C:\Users\Karrar\Desktop\HFMS\HFMS\HFMS\obj\Debug\HFMS.pdb
+C:\Users\Karrar\Desktop\HFMS\HFMS\HFMS\bin\Debug\HFMS.exe
+C:\Users\Karrar\Desktop\HFMS\HFMS\HFMS\bin\Debug\HFMS.pdb
+C:\Users\Karrar\Desktop\HFMS\HFMS\HFMS\bin\Debug\GSMCommServer.dll
+C:\Users\Karrar\Desktop\HFMS\HFMS\HFMS\bin\Debug\GSMCommShared.dll
+C:\Users\Karrar\Desktop\HFMS\HFMS\HFMS\bin\Debug\GSMCommunication.dll
+C:\Users\Karrar\Desktop\HFMS\HFMS\HFMS\bin\Debug\PDUConverter.dll
+C:\Users\Karrar\Desktop\HFMS\HFMS\HFMS\obj\Debug\HFMS.csprojResolveAssemblyReference.cache
+C:\Users\Karrar\Desktop\HFMS\HFMS\HFMS\obj\Debug\HFMS.AdminControl.resources
+C:\Users\Karrar\Desktop\HFMS\HFMS\HFMS\obj\Debug\HFMS.Fine.resources
+C:\Users\Karrar\Desktop\HFMS\HFMS\HFMS\obj\Debug\GSMCommDemo.frmConnection.resources
+C:\Users\Karrar\Desktop\HFMS\HFMS\HFMS\obj\Debug\GSMCommDemo.frmDemo.resources
+C:\Users\Karrar\Desktop\HFMS\HFMS\HFMS\obj\Debug\GSMCommDemo.frmSecurity.resources
+C:\Users\Karrar\Desktop\HFMS\HFMS\HFMS\obj\Debug\HFMS.HFMS_WINDOW.resources
+C:\Users\Karrar\Desktop\HFMS\HFMS\HFMS\obj\Debug\HFMS.Login.resources
+C:\Users\Karrar\Desktop\HFMS\HFMS\HFMS\obj\Debug\HFMS.MyAccount.resources
+C:\Users\Karrar\Desktop\HFMS\HFMS\HFMS\obj\Debug\HFMS.Properties.Resources.resources
+C:\Users\Karrar\Desktop\HFMS\HFMS\HFMS\obj\Debug\HFMS.Resource1.resources
+C:\Users\Karrar\Desktop\HFMS\HFMS\HFMS\obj\Debug\HFMS.Rooms.resources
+C:\Users\Karrar\Desktop\HFMS\HFMS\HFMS\obj\Debug\HFMS.StudentControl.resources
+C:\Users\Karrar\Desktop\HFMS\HFMS\HFMS\obj\Debug\HFMS.StudentEntry.resources
+C:\Users\Karrar\Desktop\HFMS\HFMS\HFMS\obj\Debug\HFMS.warden.resources
+C:\Users\Karrar\Desktop\HFMS\HFMS\HFMS\obj\Debug\HFMS.csproj.GenerateResource.Cache
+F:\Docs5\projects\HFMS\HFMS\HFMS\bin\Debug\HFMS.exe.config
+F:\Docs5\projects\HFMS\HFMS\HFMS\obj\Debug\HFMS.exe
+F:\Docs5\projects\HFMS\HFMS\HFMS\obj\Debug\HFMS.pdb

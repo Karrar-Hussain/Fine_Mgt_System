@@ -1,0 +1,5 @@
+Roles & Responsibilities:
+               We were group of three people. Thus we divided project into 3 major modules.
+1) SmS Using Connected Phone Modem (Including : Fine Module, Fine Record entry, Collect Fine ) 13F8294
+2) Warden's Tasks (Including Modules: Student, MyAccount , Rooms ) 13F8317
+3) Admin's Tasks ( Including Modules User: warden , student ,Rooms ) 13F8298

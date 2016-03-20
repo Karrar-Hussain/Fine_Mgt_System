@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="HFMS_dbDataSet" targetNamespace="http://tempuri.org/HFMS_dbDataSet.xsd" xmlns:mstns="http://tempuri.org/HFMS_dbDataSet.xsd" xmlns="http://tempuri.org/HFMS_dbDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="connectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="connectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.HFMS.Properties.Settings.GlobalReference.Default.connectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="FineRecordTblTableAdapter" GeneratorDataComponentClassName="FineRecordTblTableAdapter" Name="FineRecordTbl" UserDataComponentName="FineRecordTblTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="connectionString (Settings)" DbObjectName="HFMS_db.dbo.FineRecordTbl" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Amount, FineDate, DueDate, FineDetail, SMSsent FROM dbo.FineRecordTbl</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Amount" DataSetColumn="Amount" />
+              <Mapping SourceColumn="FineDate" DataSetColumn="FineDate" />
+              <Mapping SourceColumn="DueDate" DataSetColumn="DueDate" />
+              <Mapping SourceColumn="FineDetail" DataSetColumn="FineDetail" />
+              <Mapping SourceColumn="SMSsent" DataSetColumn="SMSsent" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="connectionString (Settings)" DbObjectName="HFMS_db.dbo.FineRecordTbl" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="FillBy" GenerateMethods="Fill" GenerateShortCommands="true" GeneratorSourceName="FillBy" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="FillBy">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Amount, FineDate, DueDate, FineDetail, SMSsent FROM dbo.FineRecordTbl where IsPaid = 0</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="HFMS_dbDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="HFMS_dbDataSet" msprop:Generator_UserDSName="HFMS_dbDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="FineRecordTbl" msprop:Generator_TableClassName="FineRecordTblDataTable" msprop:Generator_TableVarName="tableFineRecordTbl" msprop:Generator_RowChangedName="FineRecordTblRowChanged" msprop:Generator_TablePropName="FineRecordTbl" msprop:Generator_RowDeletingName="FineRecordTblRowDeleting" msprop:Generator_RowChangingName="FineRecordTblRowChanging" msprop:Generator_RowEvHandlerName="FineRecordTblRowChangeEventHandler" msprop:Generator_RowDeletedName="FineRecordTblRowDeleted" msprop:Generator_RowClassName="FineRecordTblRow" msprop:Generator_UserTableName="FineRecordTbl" msprop:Generator_RowEvArgName="FineRecordTblRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Amount" msprop:Generator_ColumnVarNameInTable="columnAmount" msprop:Generator_ColumnPropNameInRow="Amount" msprop:Generator_ColumnPropNameInTable="AmountColumn" msprop:Generator_UserColumnName="Amount" type="xs:int" />
+              <xs:element name="FineDate" msprop:Generator_ColumnVarNameInTable="columnFineDate" msprop:Generator_ColumnPropNameInRow="FineDate" msprop:Generator_ColumnPropNameInTable="FineDateColumn" msprop:Generator_UserColumnName="FineDate" type="xs:dateTime" />
+              <xs:element name="DueDate" msprop:Generator_ColumnVarNameInTable="columnDueDate" msprop:Generator_ColumnPropNameInRow="DueDate" msprop:Generator_ColumnPropNameInTable="DueDateColumn" msprop:Generator_UserColumnName="DueDate" type="xs:dateTime" />
+              <xs:element name="FineDetail" msprop:Generator_ColumnVarNameInTable="columnFineDetail" msprop:Generator_ColumnPropNameInRow="FineDetail" msprop:Generator_ColumnPropNameInTable="FineDetailColumn" msprop:Generator_UserColumnName="FineDetail">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SMSsent" msprop:Generator_ColumnVarNameInTable="columnSMSsent" msprop:Generator_ColumnPropNameInRow="SMSsent" msprop:Generator_ColumnPropNameInTable="SMSsentColumn" msprop:Generator_UserColumnName="SMSsent" type="xs:unsignedByte" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

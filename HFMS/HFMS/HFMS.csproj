@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B2546F14-0276-4ACF-BEFD-A6FAE3704347}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HFMS</RootNamespace>
+    <AssemblyName>HFMS</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="GSMCommServer, Version=1.21.0.0, Culture=neutral, PublicKeyToken=515d87df384dcc81, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Assests\GSMCommServer.dll</HintPath>
+    </Reference>
+    <Reference Include="GSMCommShared, Version=1.21.0.0, Culture=neutral, PublicKeyToken=515d87df384dcc81, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Assests\GSMCommShared.dll</HintPath>
+    </Reference>
+    <Reference Include="GSMCommunication, Version=1.21.0.0, Culture=neutral, PublicKeyToken=515d87df384dcc81, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Assests\GSMCommunication.dll</HintPath>
+    </Reference>
+    <Reference Include="PDUConverter, Version=1.21.0.0, Culture=neutral, PublicKeyToken=515d87df384dcc81, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Assests\PDUConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AdminControl.Designer.cs">
+      <DependentUpon>AdminControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\SendMail.cs" />
+    <Compile Include="Controllers\sendSMS.cs" />
+    <Compile Include="Controls\FineRecord.cs" />
+    <Compile Include="Controls\Login.cs" />
+    <Compile Include="Controls\Person.cs" />
+    <Compile Include="Controls\Room.cs" />
+    <Compile Include="Controls\Student.cs" />
+    <Compile Include="Controls\StudentController.cs" />
+    <Compile Include="Controls\Warden.cs" />
+    <Compile Include="Fine.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Fine.Designer.cs">
+      <DependentUpon>Fine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GSM_Config\frmConnection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSM_Config\frmDemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSM_Config\frmSecurity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSM_Config\frmSecurity.designer.cs">
+      <DependentUpon>frmSecurity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GSM_Config\ProtocolCommand.cs" />
+    <Compile Include="GSM_Config\SecuritySettings.cs" />
+    <Compile Include="HFMS_dbDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HFMS_dbDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HFMS_dbDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HFMS_dbDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HFMS_WINDOW.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HFMS_WINDOW.Designer.cs">
+      <DependentUpon>HFMS_WINDOW.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogIn.Designer.cs">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="model\FineRecorddb.cs" />
+    <Compile Include="model\ModelLogin.cs" />
+    <Compile Include="model\ModelStudent.cs" />
+    <Compile Include="model\Persondb.cs" />
+    <Compile Include="model\Roomdb.cs" />
+    <Compile Include="model\Wardendb.cs" />
+    <Compile Include="MyAccount.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyAccount.Designer.cs">
+      <DependentUpon>MyAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resource1.Designer.cs" />
+    <Compile Include="Resource11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Rooms.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Rooms.designer.cs">
+      <DependentUpon>Rooms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StudentControl.Designer.cs">
+      <DependentUpon>StudentControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentEntry.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StudentEntry.Designer.cs">
+      <DependentUpon>StudentEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="warden.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="warden.Designer.cs">
+      <DependentUpon>warden.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdminControl.resx">
+      <DependentUpon>AdminControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fine.resx">
+      <DependentUpon>Fine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSM_Config\frmConnection.resx">
+      <DependentUpon>frmConnection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSM_Config\frmDemo.resx">
+      <DependentUpon>frmDemo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSM_Config\frmSecurity.resx">
+      <DependentUpon>frmSecurity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HFMS_WINDOW.resx">
+      <DependentUpon>HFMS_WINDOW.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogIn.resx">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyAccount.resx">
+      <DependentUpon>MyAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="obj\Debug\HFMS.Fine.resources" />
+    <EmbeddedResource Include="obj\Debug\HFMS.HFMS_WINDOW.resources" />
+    <EmbeddedResource Include="obj\Debug\HFMS.LogIn.resources" />
+    <EmbeddedResource Include="obj\Debug\HFMS.MyAccount.resources" />
+    <EmbeddedResource Include="obj\Debug\HFMS.NewStudentForm.resources" />
+    <EmbeddedResource Include="obj\Debug\HFMS.Properties.Resources.resources" />
+    <EmbeddedResource Include="obj\Debug\HFMS.Resource1.resources" />
+    <EmbeddedResource Include="obj\Debug\HFMS.StudentControl.resources" />
+    <EmbeddedResource Include="obj\Debug\HFMS.StudentEntry.resources" />
+    <EmbeddedResource Include="obj\Debug\HFMS.warden.resources" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Resource1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource11.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rooms.resx">
+      <DependentUpon>Rooms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentControl.resx">
+      <DependentUpon>StudentControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentEntry.resx">
+      <DependentUpon>StudentEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="warden.resx">
+      <DependentUpon>warden.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="bin\Debug\HFMS.exe.config" />
+    <None Include="bin\Debug\HFMS.vshost.exe.config" />
+    <None Include="bin\Debug\HFMS.vshost.exe.manifest" />
+    <None Include="HFMS_dbDataSet.xsc">
+      <DependentUpon>HFMS_dbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="HFMS_dbDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HFMS_dbDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HFMS_dbDataSet.xss">
+      <DependentUpon>HFMS_dbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="HFMS_dbDataSet1.xsc">
+      <DependentUpon>HFMS_dbDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="HFMS_dbDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HFMS_dbDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HFMS_dbDataSet1.xss">
+      <DependentUpon>HFMS_dbDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="o5hpuw11.gqv" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\HFMS.csproj.GenerateResource.Cache" />
+    <None Include="obj\Debug\HFMS.csprojResolveAssemblyReference.cache" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\Thumbs.db" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\one-piece-6683185.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1446290185_Add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assests\GSMCommServer.dll" />
+    <Content Include="Assests\GSMCommShared.dll" />
+    <Content Include="Assests\GSMCommunication.dll" />
+    <Content Include="Assests\PDUConverter.dll" />
+    <Content Include="Assets\fine.ico" />
+    <Content Include="Assets\fine.png" />
+    <Content Include="Assets\room_Fotor.jpg" />
+    <Content Include="Assets\search.png" />
+    <Content Include="Assets\st.png" />
+    <Content Include="Assets\student.ico" />
+    <Content Include="bin\Debug\GSMCommServer.dll" />
+    <Content Include="bin\Debug\GSMCommShared.dll" />
+    <Content Include="bin\Debug\GSMCommunication.dll" />
+    <Content Include="bin\Debug\HFMS.exe" />
+    <Content Include="bin\Debug\HFMS.pdb" />
+    <Content Include="bin\Debug\HFMS.vshost.exe" />
+    <Content Include="bin\Debug\PDUConverter.dll" />
+    <Content Include="GSM_Config\UpgradeLog.htm" />
+    <Content Include="obj\Debug\HFMS.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\HFMS.exe" />
+    <Content Include="obj\Debug\HFMS.pdb" />
+    <Content Include="query\dbo.rooms.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
